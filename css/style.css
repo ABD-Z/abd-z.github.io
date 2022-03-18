@@ -24,7 +24,8 @@
 html, body {
   height: 100%;
   background-color: #f0f0f0;
-  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(223,223,223,1) 100%);
+  /*background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(223,223,223,1) 100%);*/
+  background: linear-gradient(230deg, rgb(216 216 216) 0%, rgb(179 179 179) 100%);
 }
 /*
   Typographic tweaks!
@@ -95,11 +96,11 @@ p, h1, h2, h3, h4, h5, h6 {
 
 #logo:hover{
   //visibility: hidden; 
-   border-radius: 0%;
-  box-shadow:
-   
-    -10px 0 80px #Eef,        /* outer left magenta */
-    10px 0 80px #fff;
+  border-radius: 0%;
+  box-shadow: -10px 0 80px #fff, /*left*/
+               10px 0 80px #fff, /*right*/
+               0 10px 80px #fff, /*bot*/
+               0 -10px 80px #fff; /*top*/
 
 }
 
