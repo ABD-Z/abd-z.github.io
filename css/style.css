@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -35,7 +35,7 @@ html, body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Play', sans-serif;
   font-weight: 500;
 }
 /*
@@ -72,15 +72,15 @@ p, h1, h2, h3, h4, h5, h6 {
   100% {color: rgba(0,0,0,255);}
 }
 
-@keyframes moveUp {
-  0% {transform: translateY(100%);}
+@keyframes moveDown {
+  0% {transform: translateY(-200%);}
   100% {transform: translateY(0);}
 }
 
 #logo{
   /*border: 8px solid black;*/
   /*animation:  animation-name animation-duration animation-timing-function animation-delay animation-iteration-count*/
-  animation: moveUp 2.5s cubic-bezier(.49,.24,0,1.1) 0s 1;
+  animation: moveDown 2.5s cubic-bezier(.49,.24,0,1.1) 0s 1;
   -webkit-box-reflect:  below 20px linear-gradient(to bottom, 
       hsla(0,0%,0%,0%),
       hsla(0,0%,0%,10%));
@@ -92,20 +92,23 @@ p, h1, h2, h3, h4, h5, h6 {
    object-fit: contain;
    object-position: 50% 0%;
    transition: 2s;
+   width: 480px;
 }
 
 #logo:hover{
   //visibility: hidden; 
   border-radius: 0%;
-  box-shadow: -10px 0 80px #fff, /*left*/
-               10px 0 80px #fff, /*right*/
-               0 10px 80px #fff, /*bot*/
-               0 -10px 80px #fff; /*top*/
+  /*box-shadow: -10px 0 80px #fff,*/ /*left*/
+    /*           10px 0 80px #fff,*/ /*right*/
+    /*           0 10px 80px #fff,*/ /*bot*/
+    /*           0 -10px 80px #fff; *//*top*/
+  filter: drop-shadow(-10px 0 80px #fff) drop-shadow(10px 0 80px #fff) 
+          drop-shadow(0 10px 80px #fff) drop-shadow(0 -10px 80px #fff);
 
 }
 
 #caption{
-  font-weight: 500;
+  font-weight: 700;
   font-size: 3.33vmax;
   text-align: center;
 }
