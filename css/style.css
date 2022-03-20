@@ -93,6 +93,7 @@ p, h1, h2, h3, h4, h5, h6 {
    object-position: 50% 0%;
    transition: 2s;
    width: 480px;
+   filter: invert(100%);
 }
 
 #logo:hover{
@@ -102,7 +103,7 @@ p, h1, h2, h3, h4, h5, h6 {
     /*           10px 0 80px #fff,*/ /*right*/
     /*           0 10px 80px #fff,*/ /*bot*/
     /*           0 -10px 80px #fff; *//*top*/
-  filter: drop-shadow(-10px 0 80px #fff) drop-shadow(10px 0 80px #fff) 
+  filter: invert(100%) drop-shadow(-10px 0 80px #fff) drop-shadow(10px 0 80px #fff) 
           drop-shadow(0 10px 80px #fff) drop-shadow(0 -10px 80px #fff);
 
 }
