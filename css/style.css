@@ -113,3 +113,9 @@ p, h1, h2, h3, h4, h5, h6 {
   font-size: 3.33vmax;
   text-align: center;
 }
+
+.hide{
+  opacity: 0 !important;
+  height: 0px;
+  display: none;
+}
