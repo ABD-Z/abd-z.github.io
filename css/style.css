@@ -15,6 +15,9 @@
   --logo_hover_glowpos_pos: 10px;
   --logo_hover_glowpos_neg: -10px;
 
+  --logo_splash_width: 480px;
+  --logo_menu_width: 100px;
+
 }
 
 
@@ -102,15 +105,17 @@ p, h1, h2, h3, h4, h5, h6 {
   -webkit-box-reflect:  below 20px linear-gradient(to bottom, 
       hsla(0,0%,0%,0%),
       hsla(0,0%,0%,10%));
-   margin: 0 auto;
+  
+
+   margin-left: calc(50vw - var(--logo_splash_width)/2);
+   margin-top: 2%;
+   margin-bottom: 2%;
    
-   margin-top: 5vh;
-   margin-bottom: 5vh;
    /*padding: 5vh 0 5vh 0;*/
    object-fit: contain;
-   object-position: 50% 0%;
+   object-position: 50% 50%;
    transition: 2s;
-   width: 480px;
+   width: var(--logo_splash_width);
    filter: invert(100%);
    transform: rotateZ(0deg);
 }
@@ -153,7 +158,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 #logo.moving{
-  width: 100px;
+  width: var(--logo_menu_width);
   transform: rotateZ(360deg);
   margin-left: 10px;
   margin-top: 10px;
