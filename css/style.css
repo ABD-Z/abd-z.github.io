@@ -1,6 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+:root {
+  --main-font:'Play';
+
+  --bg_color: #f0f0f0;
+  --bg_grad_deg: 230deg;
+  --bg_grad_col1: rgb(216 216 216);
+  --bg_grad_col2: rgb(179 179 179);
+
+  --logo_hover_glowcol: #fff;
+  --logo_hover_glowblur: 80px;
+  --logo_hover_glowpos_pos: 10px;
+  --logo_hover_glowpos_neg: -10px;
+
+}
+
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -23,7 +40,7 @@
 */
 html, body {
   height: 100%;
-  background-color: #f0f0f0;
+  background-color: var(--bg_color);
 }
 /*
   Typographic tweaks!
@@ -33,10 +50,10 @@ html, body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Play', sans-serif;
+  font-family: var(--main-font), sans-serif;
   font-weight: 500;
   /*background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(223,223,223,1) 100%);*/
-  background: linear-gradient(230deg, rgb(216 216 216) 0%, rgb(179 179 179) 100%);
+  background: linear-gradient(var(--bg_grad_deg), var(--bg_grad_col1) 0%, var(--bg_grad_col2) 100%);
 }
 /*
   6. Improve media defaults
@@ -103,8 +120,11 @@ p, h1, h2, h3, h4, h5, h6 {
     /*           10px 0 80px #fff,*/ /*right*/
     /*           0 10px 80px #fff,*/ /*bot*/
     /*           0 -10px 80px #fff; *//*top*/
-  filter: invert(100%) drop-shadow(-10px 0 80px #fff) drop-shadow(10px 0 80px #fff) 
-          drop-shadow(0 10px 80px #fff) drop-shadow(0 -10px 80px #fff);
+  filter: invert(100%) 
+          drop-shadow(var(--logo_hover_glowpos_neg) 0 var(--logo_hover_glowblur) var(--logo_hover_glowcol))
+          drop-shadow(var(--logo_hover_glowpos_pos) 0 var(--logo_hover_glowblur) var(--logo_hover_glowcol)) 
+          drop-shadow(0 var(--logo_hover_glowpos_pos) var(--logo_hover_glowblur) var(--logo_hover_glowcol)) 
+          drop-shadow(0 var(--logo_hover_glowpos_neg) var(--logo_hover_glowblur) var(--logo_hover_glowcol));
 
 }
 
@@ -116,7 +136,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .hide #logo{
   filter: invert(0%);
-  transition:  filter 1s ease;
+  transition:  /*filter*/ 1s ease;
 }
 
 /*.hide{*/
