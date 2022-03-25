@@ -114,7 +114,7 @@ p, h1, h2, h3, h4, h5, h6 {
    transform: rotateZ(0deg);
 }
 @media (hover: hover) and (pointer: fine){
-  #logo:hover{
+  #dgf:hover{
   
     /*visibility: hidden; */
     border-radius: 0%;
