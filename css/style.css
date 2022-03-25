@@ -113,20 +113,22 @@ p, h1, h2, h3, h4, h5, h6 {
    filter: invert(100%);
    transform: rotateZ(0deg);
 }
-
-#logo:hover{
+@media (hover: hover) and (pointer: fine){
+  #logo:hover{
   
-  /*visibility: hidden; */
-  border-radius: 0%;
-  /*box-shadow: -10px 0 80px #fff,*/ /*left*/
-    /*           10px 0 80px #fff,*/ /*right*/
-    /*           0 10px 80px #fff,*/ /*bot*/
-    /*           0 -10px 80px #fff; *//*top*/
-  filter: invert(100%) 
-          drop-shadow(var(--logo_hover_glowpos_neg) 0 var(--logo_hover_glowblur) var(--logo_hover_glowcol))
-          drop-shadow(var(--logo_hover_glowpos_pos) 0 var(--logo_hover_glowblur) var(--logo_hover_glowcol)) 
-          drop-shadow(0 var(--logo_hover_glowpos_pos) var(--logo_hover_glowblur) var(--logo_hover_glowcol)) 
-          drop-shadow(0 var(--logo_hover_glowpos_neg) var(--logo_hover_glowblur) var(--logo_hover_glowcol));
+    /*visibility: hidden; */
+    border-radius: 0%;
+    /*box-shadow: -10px 0 80px #fff,*/ /*left*/
+      /*           10px 0 80px #fff,*/ /*right*/
+      /*           0 10px 80px #fff,*/ /*bot*/
+      /*           0 -10px 80px #fff; *//*top*/
+    filter: invert(100%) 
+            drop-shadow(var(--logo_hover_glowpos_neg) 0 var(--logo_hover_glowblur) var(--logo_hover_glowcol))
+            drop-shadow(var(--logo_hover_glowpos_pos) 0 var(--logo_hover_glowblur) var(--logo_hover_glowcol)) 
+            drop-shadow(0 var(--logo_hover_glowpos_pos) var(--logo_hover_glowblur) var(--logo_hover_glowcol)) 
+            drop-shadow(0 var(--logo_hover_glowpos_neg) var(--logo_hover_glowblur) var(--logo_hover_glowcol));
+  
+  }
 
 }
 
