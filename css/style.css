@@ -114,8 +114,15 @@ p, h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-.hide{
-  opacity: 0 !important;
-  height: 0px;
-  display: none;
+.hide #logo{
+  filter: invert(0%);
+  transition:  filter 1s ease;
 }
+
+/*.hide{*/
+  /*opacity: 0 !important;
+  height: 0px;*/
+  /*transition:  1s ease;*/
+  /*display: none;*/
+/*}*/
+
