@@ -25,6 +25,6 @@ function toggle_contact(social){
 }
 
 function go_to(page){
-	$(".active_page").toggleClass("hide active_page");
-	$("#"+page).toggleClass("hide active_page")
+	$(".display").toggleClass("hide display");
+	$("#"+page).toggleClass("hide display")
 }
