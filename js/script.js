@@ -26,5 +26,13 @@ function toggle_contact(social){
 
 function go_to(page){
 	$(".display").toggleClass("hide display");
-	$("#"+page).toggleClass("hide display")
+	$("#"+page).toggleClass("hide display");
+
+}
+
+function splash_to_menu(){
+    console.log("infuncion");
+    $("#logo").toggleClass("moving");
+    $("#caption").toggleClass("moving");
+  //  $("#logo").prop("onclick", null).off("click");
 }

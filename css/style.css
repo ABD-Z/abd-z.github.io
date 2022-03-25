@@ -101,8 +101,8 @@ p, h1, h2, h3, h4, h5, h6 {
   -webkit-box-reflect:  below 20px linear-gradient(to bottom, 
       hsla(0,0%,0%,0%),
       hsla(0,0%,0%,10%));
-   margin-left: auto;
-   margin-right: auto;
+   margin: 0 auto;
+   
    margin-top: 5vh;
    margin-bottom: 5vh;
    /*padding: 5vh 0 5vh 0;*/
@@ -111,9 +111,11 @@ p, h1, h2, h3, h4, h5, h6 {
    transition: 2s;
    width: 480px;
    filter: invert(100%);
+   transform: rotateZ(0deg);
 }
 
 #logo:hover{
+  
   /*visibility: hidden; */
   border-radius: 0%;
   /*box-shadow: -10px 0 80px #fff,*/ /*left*/
@@ -132,17 +134,33 @@ p, h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-size: 3.33vmax;
   text-align: center;
+  transition: 2s;
+  transform: translate3d(0,0,0);
 }
 
 .hide #logo{
-  filter: invert(0%);
-  transition:  /*filter*/ 1s ease;
+  /*animation: moveDown 2.5s cubic-bezier(.49,.24,0,1.1) 0s 1 backwards;*/
+  animation: moveDown 2.5s cubic-bezier(.49,.24,0,1.1) 0s 1;
 }
 
-/*.hide{*/
+.hide{
   /*opacity: 0 !important;
   height: 0px;*/
   /*transition:  1s ease;*/
   /*display: none;*/
-/*}*/
+  animation: moveDown 2.5s cubic-bezier(.49,.24,0,1.1) 0s 1 backwards;
+}
 
+#logo.moving{
+  width: 100px;
+  transform: rotateZ(360deg);
+  margin-left: 10px;
+  transition: 2s;
+ /* margin-right: 50%;*/
+}
+
+#caption.moving{
+  transform: translate3d(200%,0,0);
+  font-size: 0vmax;
+  transition: 2s;
+}
