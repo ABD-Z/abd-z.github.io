@@ -31,7 +31,6 @@ function go_to(page){
 }
 
 function splash_to_menu(){
-    console.log("infuncion");
     $("#logo").toggleClass("moving");
     $("#caption").toggleClass("moving");
   //  $("#logo").prop("onclick", null).off("click");
