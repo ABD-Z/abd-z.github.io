@@ -165,7 +165,7 @@ p, h1, h2, h3, h4, h5, h6 {
   animation: moveDown 2.5s cubic-bezier(.49,.24,0,1.1) 0s 1 backwards;
 }
 
-#logo.active{
+#logo.display{
   width: var(--logo_menu_width);
   transform: rotateZ(360deg);
   margin-left: 10%;
@@ -175,7 +175,7 @@ p, h1, h2, h3, h4, h5, h6 {
   float :left;
 }
 
-#caption.active{
+#caption.display{
   transform: translate3d(200%,0,0);
   font-size: 0vmax;
   
@@ -194,8 +194,7 @@ p, h1, h2, h3, h4, h5, h6 {
   transition: 2s;
 }
 
-#menu.active{
-  
+#menu.display{
   height:85.8333px;
   transform:translate3d(0,0,0);
 }
@@ -215,7 +214,7 @@ p, h1, h2, h3, h4, h5, h6 {
   text-align: center;
   text-decoration: none;
   height: 100%;
-  line-height: 85px;
+  line-height: 85.8333px;
   /*width:150px;*/
   margin-left: 40px;;
 }
@@ -234,6 +233,34 @@ p, h1, h2, h3, h4, h5, h6 {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+hr.vertical{ 
+  
+  border:         none;
+  border-left:    2px solid black;
+  height:         0px;
+  width: 1px;
+  float:left;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right:10px;
+}
+
+#name_title{
+  height: 0px;
+  transform: translateY(-550vh);
+  transition : 3s;
+  
+}
+
+#name_title.display hr.vertical{
+  height:85.8333px;
+}
+
+#name_title.display{
+  height: 85px;
+  transform: translateY(0);
+}
+
 #hline{
   width: 100%;
   border-bottom: 1px solid rgb(255, 0, 0);
@@ -248,3 +275,4 @@ p, h1, h2, h3, h4, h5, h6 {
   left:50vw;
   top:0vh;
 }
+

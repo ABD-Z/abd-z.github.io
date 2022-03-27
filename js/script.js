@@ -31,8 +31,9 @@ function go_to(page){
 }
 
 function splash_to_menu(){
-    $("#logo").toggleClass("active");
-    $("#caption").toggleClass("active");
-	$("#menu").toggleClass("active");
+    $("#logo").toggleClass("display");
+    $("#caption").toggleClass("display");
+	$("#menu").toggleClass("display");
+	$("#name_title").toggleClass("display");
   //  $("#logo").prop("onclick", null).off("click");
 }
