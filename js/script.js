@@ -35,5 +35,6 @@ function splash_to_menu(){
     $("#caption").toggleClass("display");
 	$("#menu").toggleClass("display");
 	$("#name_title").toggleClass("display");
+    $("#home").toggleClass("display");
   //  $("#logo").prop("onclick", null).off("click");
 }
