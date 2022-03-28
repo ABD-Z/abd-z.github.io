@@ -242,6 +242,7 @@ hr.vertical{
   transform: translateY(-550vh);
   transition : 3s;
   padding-top: 10px;
+  display: table;
   
 }
 
@@ -252,7 +253,6 @@ hr.vertical{
 #name_title.display{
   height: 95px;
   transform: translateY(0);
-  overflow: hidden;
 }
 
 #hline{
