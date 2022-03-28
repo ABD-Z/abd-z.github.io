@@ -36,7 +36,7 @@
 * {
   border-width: 1px;
   border-color: black;
-  border-style: solid;
+ /* border-style: solid;*/
   margin: 0;
 }
 /*
@@ -240,7 +240,6 @@ hr.vertical{
   width: 1px;
   float:left;
   margin-left: 10px;
-  margin-top: 10px;
   margin-right:10px;
 }
 
@@ -248,16 +247,18 @@ hr.vertical{
   height: 0px;
   transform: translateY(-550vh);
   transition : 3s;
+  padding-top: 10px;
   
 }
 
 #name_title.display hr.vertical{
-  height:85.8333px;
+  height:100%;
 }
 
 #name_title.display{
-  height: 85px;
+  height: 95px;
   transform: translateY(0);
+  overflow: hidden;
 }
 
 #hline{
