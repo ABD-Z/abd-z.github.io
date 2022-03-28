@@ -19,6 +19,8 @@
   --logo_menu_width: 100px;
 
   --hr_width:665.021px;
+
+  --global_container_margin:10%;
 }
 
 
@@ -99,12 +101,13 @@ p, h1, h2, h3, h4, h5, h6 {
   100% {transform: translateY(0);}
 }
 
+
 #olivier{
   animation: moveDown 2.5s cubic-bezier(.49,.24,0,1.1) 0s 1;
-  margin-left: calc(50vw - var(--hr_width)/2);
   clear:both;
+  margin: 0 auto;
 }
-  
+
 #logo{
   /*border: 8px solid black;*/
   /*animation:  animation-name animation-duration animation-timing-function animation-delay animation-iteration-count*/
@@ -114,18 +117,18 @@ p, h1, h2, h3, h4, h5, h6 {
       hsla(0,0%,0%,10%));
   
 
-   margin-left: calc(50vw - var(--logo_splash_width)/2);
-   margin-right: calc(50vw - var(--logo_splash_width)/2);
+  
+  
    margin-top: 2%;
    margin-bottom: 2%;
    
    /*padding: 5vh 0 5vh 0;*/
-   object-fit: contain;
    object-position: 50% 50%;
    transition: 2s;
    width: var(--logo_splash_width);
    filter: invert(100%);
    transform: rotateZ(0deg);
+   margin-left: calc(50% - var(--logo_splash_width)/2);
 }
 
 #logo:hover{
@@ -152,18 +155,8 @@ p, h1, h2, h3, h4, h5, h6 {
   transform: translate3d(0,0,0);
 }
 
-.hide #logo{
-  /*animation: moveDown 2.5s cubic-bezier(.49,.24,0,1.1) 0s 1 backwards;*/
-  animation: moveDown 2.5s cubic-bezier(.49,.24,0,1.1) 0s 1;
-}
 
-.hide{
-  /*opacity: 0 !important;
-  height: 0px;*/
-  /*transition:  1s ease;*/
-  /*display: none;*/
-  animation: moveDown 2.5s cubic-bezier(.49,.24,0,1.1) 0s 1 backwards;
-}
+
 
 #logo.display{
   width: var(--logo_menu_width);
@@ -173,6 +166,7 @@ p, h1, h2, h3, h4, h5, h6 {
   transition: 2s;
   margin-right: 0px !important;
   float :left;
+  margin-bottom: 0;
 }
 
 #caption.display{
@@ -276,3 +270,6 @@ hr.vertical{
   top:0vh;
 }
 
+#global_container{
+  margin: 0 10%;
+}
