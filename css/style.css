@@ -185,16 +185,16 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-right: 10%;
   transform:translate3d(200%,0,0);
   transition: 2s;
+  transition-delay: 1.5s;
 }
 
 #menu.display{
-  height:85.8333px;
+  height:inherit;
   transform:translate3d(0,0,0);
 }
 
 #menu li {
   float: left;
-  height: 100%
 }
 
 #menu li:last-child {
@@ -207,9 +207,12 @@ p, h1, h2, h3, h4, h5, h6 {
   text-align: center;
   text-decoration: none;
   height: 100%;
-  line-height: 85.8333px;
+  /*line-height: 85.8333px;*/
   /*width:150px;*/
-  margin-left: 40px;;
+}
+
+#menu li:not(:first-child) a{
+  margin-left: 2vw;
 }
 
 #menu li a:hover:not(.active) {
@@ -242,7 +245,8 @@ hr.vertical{
   transform: translateY(-550vh);
   transition : 3s;
   padding-top: 10px;
-  display: table;
+  float: left;
+  width:12em;
   
 }
 
