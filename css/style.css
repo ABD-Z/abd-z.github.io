@@ -129,6 +129,7 @@ p, h1, h2, h3, h4, h5, h6 {
    filter: invert(100%);
    transform: rotateZ(0deg);
    margin-left: calc(50% - var(--logo_splash_width)/2);
+   max-width: none;
 }
 
 #logo:hover{
