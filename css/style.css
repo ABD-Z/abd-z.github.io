@@ -7,8 +7,8 @@
 
   --bg_color: #f0f0f0;
   --bg_grad_deg: 230deg;
-  --bg_grad_col1: rgba(196, 195, 193, 0.7);
-  --bg_grad_col2: rgba(155, 155, 155, 0.7);
+  --bg_grad_col1: rgba(230, 230, 230, 0.5);
+  --bg_grad_col2: rgba(200, 200, 200, 0.5);
 
   --logo_hover_glowcol: #fff;
   --logo_hover_glowblur: 80px;
