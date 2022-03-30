@@ -26,21 +26,18 @@
 	
 		
 	
-		<img id="logo" src="logo_alt.svg" onclick="splash_to_menu()">
-	
-		
-
-		
+		<img id="logo" src="logo_alt.svg" onclick="splash_to_menu()">		
 		<div id="name_title">
 			<hr class="vertical">
 			<h4>Abdulmajid, Olivier NASSER</h4>
 			<h5><i>Passionate designer</i></h5>
 		</div>
+		
 		<ul id="menu">
-			<li><a id="active" href="#home">Home</a></li>
-			<li><a href="#my_works">My works</a></li>
-			<li><a href="#design">Design</a></li>
-			<li><a href="#contact">Contact</a></li>
+			<li><a id="active" href="#home" onclick="go_to(this,'home')">Home</a></li>
+			<li><a href="#my_works" onclick="go_to(this,'my_works')">My works</a></li>
+			<li><a href="#design" onclick="go_to(this,'design')">Design</a></li>
+			<li><a href="#contact" onclick="go_to(this,'contact')">Contact</a></li>
 		  </ul>
 		
 		<img id="olivier" src="hr.svg" onclick="">
