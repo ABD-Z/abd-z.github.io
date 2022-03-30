@@ -24,9 +24,11 @@ function toggle_contact(social){
 	$("#black_layer").toggleClass("active");
 }
 
-function go_to(page){
-	$(".display").toggleClass("hide display");
-	$("#"+page).toggleClass("hide display");
+function go_to(event, page){
+	/*$(".display").toggleClass("hide display");
+	$("#"+page).toggleClass("hide display");*/
+	console.log(event); console.log(page);
+	console.log(event.getAttribute("href"));
 
 }
 
