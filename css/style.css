@@ -40,6 +40,7 @@
   border-color: black;
  /* border-style: solid;*/
   margin: 0;
+  scroll-behavior: smooth;
 }
 /*
   3. Allow percentage-based heights in the application
@@ -216,7 +217,7 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-left: 2vw;
 }
 
-#menu li a:hover:not(#active) {
+#menu li a:hover:not(.display) {
   /*background-color: rgba(109, 118, 122, 0.445);*/
   filter:
           drop-shadow(-5px 0 8px var(--logo_hover_glowcol))
@@ -225,7 +226,7 @@ p, h1, h2, h3, h4, h5, h6 {
           drop-shadow(0 -5px 8px var(--logo_hover_glowcol));
 }
 
-#menu li #active {
+#menu li .display {
   color: white !important;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
