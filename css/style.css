@@ -48,6 +48,8 @@
 */
 html, body {
   height: 100%;
+  width: 100%;
+  margin: 0;
   background-color: var(--bg_color);
   overflow-x: hidden;
 }
@@ -187,7 +189,7 @@ input, button, textarea, select {
   height: 0px;
   float : right;
   margin-right: 10%;
-  transform:translate3d(200%,0,0);
+  transform:translate3d(500%,0,0);
   transition: 2s;
   transition-delay: 1.5s;
 }
@@ -279,7 +281,8 @@ hr.vertical{
 }
 
 #global_container{
-  margin: 10px 10%;
+  margin: 4em 10%;
+  min-height: 100vh;
 }
 
 .content{
@@ -298,3 +301,12 @@ hr.vertical{
   display: block;
   transition: 3s;
 }
+
+footer{
+  background-color: black;
+  height: 2em;
+  color : white;
+  text-indent: 2em;
+  
+}
+
