@@ -22,6 +22,7 @@
   --hr_width:665.021px;
 
   --global_container_margin:10%;
+
 }
 
 
@@ -236,7 +237,6 @@ input, button, textarea, select {
 }
 
 hr.vertical{ 
-  
   border:         none;
   border-left:    2px solid black;
   height:         0px;
@@ -283,6 +283,7 @@ hr.vertical{
 #global_container{
   margin: 4em 10%;
   min-height: 100vh;
+  
 }
 
 .content{
@@ -307,6 +308,5 @@ footer{
   height: 2em;
   color : white;
   text-indent: 2em;
-  
 }
 
