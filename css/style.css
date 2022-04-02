@@ -173,7 +173,7 @@ input, button, textarea, select {
   transition: 2s;
   margin-right: 0px !important;
   float :left;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 #caption.display{
@@ -246,6 +246,16 @@ hr.vertical{
   margin-right:10px;
 }
 
+hr.horizontal{ 
+  border:         none;
+  border-top:    2px solid black;
+  height:         0px;
+  width: 100%;
+  margin : 10px auto;
+  clear:both;
+  
+}
+
 #name_title{
   height: 0px;
   transform: translateY(-550vh);
@@ -303,7 +313,7 @@ hr.vertical{
 }
 
 .content.display{
-  display: block;
+  display: inline-block;
   transition: 3s;
 }
 
