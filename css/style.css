@@ -292,6 +292,10 @@ hr.vertical{
   display: none;
 }
 
+.centered_image{
+  filter: grayscale(100%);
+}
+
 .content .centered_image{
   display:grid;
   text-align:center;
