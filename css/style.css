@@ -324,3 +324,19 @@ footer{
   text-indent: 2em;
 }
 
+.horizontal_list{
+  text-align: center;
+  list-style: none;
+  padding-left: 0;
+  margin: 0 auto;
+  
+}
+
+.horizontal_list li{
+  display: inline-block;
+  margin:1em 2em;
+}
+
+.horizontal_list li img{
+  margin: 0 auto;
+}
