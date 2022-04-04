@@ -25,6 +25,7 @@ function toggle_contact(social){
 }
 
 var ignor_anchor = false;
+var current_menu = "#home";
 
 function go_to(event){
 	console.log(event);
@@ -44,6 +45,7 @@ function go_to(event){
 		$(target).toggleClass("display");
 
 		ignor_anchor = true;
+		current_menu = target;
 		
 	}
 	
@@ -65,6 +67,6 @@ function splash_to_menu(){
     $("#caption").toggleClass("display");
 	$("#menu").toggleClass("display");
 	$("#name_title").toggleClass("display");
-    $("#home").toggleClass("display");
+    $(current_menu).toggleClass("display");
   //  $("#logo").prop("onclick", null).off("click");
 }
