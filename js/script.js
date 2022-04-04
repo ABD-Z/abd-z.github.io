@@ -20,8 +20,8 @@
 
 
 function toggle_contact(social){
-	$("#"+social+"_info").toggleClass("active");
-	$("#black_layer").toggleClass("active");
+	$("#"+social).toggleClass("display");
+	//$("#black_layer").toggleClass("active");
 }
 
 var ignor_anchor = false;

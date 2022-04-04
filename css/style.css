@@ -341,6 +341,10 @@ footer{
   margin: 0 auto;
 }
 
+.horizontal_list li img:hover{
+  cursor: pointer;
+}
+
 .banner_image{
   width: 100vw;
   position: relative;
@@ -349,3 +353,36 @@ footer{
   margin-left: -50vw;
   margin-right: -50vw;
 }
+
+.secret{
+  display:none;
+  position: absolute;
+  background-color: #f9f9f9;
+  border-radius: 5%;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 66;
+  cursor: pointer;
+}
+
+.secret h4 {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  
+  text-align: center;
+  animation-delay: 0s;
+  animation-duration: 1s;
+}
+
+.secret.display{
+  display: block;
+}
+
+/*ul #phone:hover .secret{
+  display: block;
+}
+
+ul #email:hover .secret{
+  display: block;
+}*/
