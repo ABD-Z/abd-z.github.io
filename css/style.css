@@ -107,6 +107,12 @@ input, button, textarea, select {
   100% {transform: translateY(0);}
 }
 
+@keyframes opening_rect {
+  0% {transform: scale(0);}
+  100%{transform: scale(1);}
+  
+}
+
 
 #olivier{
   animation: moveDown 2.5s cubic-bezier(.49,.24,0,1.1) 0s 1;
@@ -378,6 +384,7 @@ footer{
 
 .secret.display{
   display: block;
+  animation: opening_rect .5s cubic-bezier(.49,.24,0,1.1) 0s 1;
 }
 
 /*ul #phone:hover .secret{
