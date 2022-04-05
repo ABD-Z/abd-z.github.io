@@ -18,24 +18,26 @@
 
 })();
 
+var ignor_anchor = false;
+var current_menu = "#home";
 
-function toggle_contact(social){
+function toggle_contact(social, social2){
 	$("#"+social).toggleClass("display");
+	$("#"+social2).removeClass("display");
 	//$("#black_layer").toggleClass("active");
 }
 
-var ignor_anchor = false;
-var current_menu = "#home";
+
 
 function go_to(event){
 	console.log(event);
 	var target = event.getAttribute("href");
 	var origin = ($(".display", "#menu")[0].getAttribute("href"));
 	if(target === origin){
-		console.log("noting");
+		//console.log("noting");
 		return;
 	}else{
-		console.log("SWAP");
+		//console.log("SWAP");
 		$(".display", "#menu").toggleClass("display")
 		$(event).addClass("display");
 		
