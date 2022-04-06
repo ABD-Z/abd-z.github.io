@@ -268,7 +268,7 @@ hr.horizontal{
   transition : 3s;
   padding-top: 10px;
   float: left;
-  width:12em;
+  width:14em;
   
 }
 
@@ -394,3 +394,7 @@ footer{
 ul #email:hover .secret{
   display: block;
 }*/
+
+@media screen {
+  
+}
