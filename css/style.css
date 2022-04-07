@@ -145,6 +145,7 @@ input, button, textarea, select {
 }
 
 #logo:hover{
+  cursor: pointer;
   
   /*visibility: hidden; */
   border-radius: 0%;
