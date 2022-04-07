@@ -21,7 +21,10 @@
 
   --hr_width:665.021px;
 
-  --global_container_margin:10%;
+  --global_container_margin_x:10%;
+  --global_container_margin_y:4em;
+  --content_container_margin:10%;
+  --title_menu_margin:10%
 
 }
 
@@ -175,7 +178,7 @@ input, button, textarea, select {
 #logo.display{
   width: var(--logo_menu_width);
   transform: rotateZ(360deg);
-  margin-left: 10%;
+  margin-left: var(--title_menu_margin);
   margin-top: 10px;
   transition: 2s;
   margin-right: 0px !important;
@@ -196,7 +199,7 @@ input, button, textarea, select {
   margin-top: 10px;
   height: 0px;
   float : right;
-  margin-right: 10%;
+  margin-right: var(--title_menu_margin);
   transform:translate3d(500%,0,0);
   transition: 2s;
   transition-delay: 1.5s;
@@ -223,11 +226,12 @@ input, button, textarea, select {
   height: 100%;
   /*line-height: 85.8333px;*/
   /*width:150px;*/
+  margin-left: 5vw;
 }
 
-#menu li:not(:first-child) a{
-  margin-left: 2vw;
-}
+/*#menu li:not(:first-child) a{
+  margin-left: 5vw;
+}*/
 
 #menu li a:hover:not(.display) {
   /*background-color: rgba(109, 118, 122, 0.445);*/
@@ -269,7 +273,7 @@ hr.horizontal{
   transition : 3s;
   padding-top: 10px;
   float: left;
-  width:14em;
+  width:13em;
   
 }
 
@@ -298,14 +302,13 @@ hr.horizontal{
 }
 
 #global_container{
-  margin: 4em 10%;
-  min-height: calc(100vh - var(--global_container_margin)*2);
-  
+  margin: 4em var(--global_container_margin_x);
+  min-height: calc(100vh - var(--global_container_margin_y)*2);
 }
 
 .content{
   text-align: justify; 
-  margin:0 10%;
+  margin:0 var(--content_container_margin);
   display: none;
 }
 
@@ -386,16 +389,4 @@ footer{
 .secret.display{
   display: block;
   animation: opening_rect .5s cubic-bezier(.49,.24,0,1.1) 0s 1;
-}
-
-/*ul #phone:hover .secret{
-  display: block;
-}
-
-ul #email:hover .secret{
-  display: block;
-}*/
-
-@media screen {
-  
 }
