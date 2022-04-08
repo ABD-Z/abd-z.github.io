@@ -345,6 +345,7 @@ footer{
 .horizontal_list li{
   display: inline-block;
   margin:1em 2em;
+  width:64px;
 }
 
 .horizontal_list li img{
