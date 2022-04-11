@@ -212,11 +212,8 @@ input, button, textarea, select {
 
 #menu li {
   float: left;
+  line-height: 1em;
   
-}
-
-#menu li:last-child {
-  border-right: none;
 }
 
 #menu li a {
@@ -246,7 +243,6 @@ input, button, textarea, select {
 
 #menu li .display {
   color: white !important;
-  line-height: 1em;
   font-size: 1.5em;
   -webkit-text-stroke: 0.66px black;
   transition: 0.1s;
