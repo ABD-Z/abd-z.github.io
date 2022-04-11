@@ -90,7 +90,7 @@ input, button, textarea, select {
   overflow-wrap: break-word;
   opacity: 0;
   color: rgba(0,0,0,0);
-  animation: fadeIn 2.5s cubic-bezier(.49,.24,0,1.1) 1s 1 forwards;
+  animation: fadeIn 2.5s cubic-bezier(.49,.24,0,1.1) 0s 1 forwards;
 }
 /*
   9. Create a root stacking context
@@ -212,6 +212,7 @@ input, button, textarea, select {
 
 #menu li {
   float: left;
+  
 }
 
 #menu li:last-child {
@@ -227,6 +228,7 @@ input, button, textarea, select {
   /*line-height: 85.8333px;*/
   /*width:150px;*/
   margin-left: 5vw;
+  transition: 0.1s;
 }
 
 /*#menu li:not(:first-child) a{
@@ -244,7 +246,10 @@ input, button, textarea, select {
 
 #menu li .display {
   color: white !important;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  line-height: 1em;
+  font-size: 1.5em;
+  -webkit-text-stroke: 0.66px black;
+  transition: 0.1s;
 }
 
 hr.vertical{ 
