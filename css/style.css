@@ -342,7 +342,7 @@ hr.horizontal{
 }
 
 .content.display{
-  display: inline-block;
+  display: block;
   transition: 3s;
 }
 
