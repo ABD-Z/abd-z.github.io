@@ -6,6 +6,13 @@
     }
 }
 
+@media screen and (max-width:408px){
+    #menu li .display{
+        font-size: 1.1em;
+    }
+}
+    
+
 @media screen and (max-width: 500px) {
     #logo{
         width: calc(var(--logo_splash_width) * 0.5);
