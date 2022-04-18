@@ -168,23 +168,6 @@ input, button, textarea, select {
    max-width: none;
 }
 
-#logo:hover{
-  cursor: pointer;
-  
-  /*visibility: hidden; */
-  border-radius: 0%;
-  /*box-shadow: -10px 0 80px #fff,*/ /*left*/
-    /*           10px 0 80px #fff,*/ /*right*/
-    /*           0 10px 80px #fff,*/ /*bot*/
-    /*           0 -10px 80px #fff; *//*top*/
-  filter: invert(100%) 
-          drop-shadow(var(--logo_hover_glowpos_neg) 0 var(--logo_hover_glowblur) var(--logo_hover_glowcol))
-          drop-shadow(var(--logo_hover_glowpos_pos) 0 var(--logo_hover_glowblur) var(--logo_hover_glowcol)) 
-          drop-shadow(0 var(--logo_hover_glowpos_pos) var(--logo_hover_glowblur) var(--logo_hover_glowcol)) 
-          drop-shadow(0 var(--logo_hover_glowpos_neg) var(--logo_hover_glowblur) var(--logo_hover_glowcol));
-
-}
-
 #caption{
   font-weight: 700;
   font-size: 3.33vmax;
@@ -247,16 +230,6 @@ input, button, textarea, select {
   /*width:150px;*/
   margin-left: 5vw;
   transition: 0.1s;
-}
-
-
-#menu li a:hover:not(.display) {
-  /*background-color: rgba(109, 118, 122, 0.445);*/
-  filter:
-          drop-shadow(-5px 0 8px var(--logo_hover_glowcol))
-          drop-shadow(5px 0 8px var(--logo_hover_glowcol)) 
-          drop-shadow(0 5px 8px var(--logo_hover_glowcol)) 
-          drop-shadow(0 -5px 8px var(--logo_hover_glowcol));
 }
 
 #menu li .display {
@@ -371,10 +344,6 @@ footer{
   margin: 0 auto;
 }
 
-.horizontal_list li img:hover{
-  cursor: pointer;
-}
-
 .banner_image{
   width: 100vw;
   position: relative;
@@ -409,4 +378,42 @@ footer{
 .secret.display{
   display: block;
   animation: opening_rect .5s cubic-bezier(.49,.24,0,1.1) 0s 1;
+}
+
+
+@media (hover: hover){
+  #logo:hover{
+    cursor: pointer;
+    
+    /*visibility: hidden; */
+    border-radius: 0%;
+    /*box-shadow: -10px 0 80px #fff,*/ /*left*/
+      /*           10px 0 80px #fff,*/ /*right*/
+      /*           0 10px 80px #fff,*/ /*bot*/
+      /*           0 -10px 80px #fff; *//*top*/
+    filter: invert(100%) 
+            drop-shadow(var(--logo_hover_glowpos_neg) 0 var(--logo_hover_glowblur) var(--logo_hover_glowcol))
+            drop-shadow(var(--logo_hover_glowpos_pos) 0 var(--logo_hover_glowblur) var(--logo_hover_glowcol)) 
+            drop-shadow(0 var(--logo_hover_glowpos_pos) var(--logo_hover_glowblur) var(--logo_hover_glowcol)) 
+            drop-shadow(0 var(--logo_hover_glowpos_neg) var(--logo_hover_glowblur) var(--logo_hover_glowcol));
+  
+  }
+
+  #menu li a:hover:not(.display) {
+    /*background-color: rgba(109, 118, 122, 0.445);*/
+    filter:
+            drop-shadow(-5px 0 8px var(--logo_hover_glowcol))
+            drop-shadow(5px 0 8px var(--logo_hover_glowcol)) 
+            drop-shadow(0 5px 8px var(--logo_hover_glowcol)) 
+            drop-shadow(0 -5px 8px var(--logo_hover_glowcol));
+  }
+
+  .horizontal_list li img:hover{
+    cursor: pointer;
+    filter:
+            drop-shadow(-5px 0 8px var(--logo_hover_glowcol))
+            drop-shadow(5px 0 8px var(--logo_hover_glowcol)) 
+            drop-shadow(0 5px 8px var(--logo_hover_glowcol)) 
+            drop-shadow(0 -5px 8px var(--logo_hover_glowcol));
+  }
 }
