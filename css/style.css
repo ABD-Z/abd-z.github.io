@@ -20,11 +20,11 @@
 
 @font-face {
   font-family: "tschihold";
-  src: url("fonts/tschichold/Tschichold.ttf");
+  src: url("fonts/tschichold/Tschichold\ Alt.ttf");
 }
 
 :root {
-  --main-font:'aeromatics';
+  --main-font:'tschihold';
 
   --bg_color: #f0f0f0;
   --bg_grad_deg: 230deg;
@@ -76,7 +76,6 @@ html, body {
   margin: 0;
   background-color: var(--bg_color);
   overflow-x: hidden;
-  font-size: 1em;
 }
 /*
   Typographic tweaks!
@@ -170,7 +169,7 @@ input, button, textarea, select {
 
 #caption{
   font-weight: 700;
-  font-size: 3.33vmax;
+ /* font-size: 3.33vmax;*/
   text-align: center;
   transition: 2s;
   transform: translate3d(0,0,0);
@@ -265,7 +264,7 @@ hr.horizontal{
   transition : 3s;
   padding-top: 10px;
   float: left;
-  width:15em;
+  width:13em;
   
 }
 
@@ -294,6 +293,7 @@ hr.horizontal{
 }
 
 #global_container{
+  font-size: 1.2em;
   margin: 4em var(--global_container_margin_x);
   min-height: calc(100vh - var(--global_container_margin_y)*2);
 }
