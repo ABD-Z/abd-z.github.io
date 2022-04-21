@@ -5,6 +5,12 @@
     }
 }
 
+@media screen and (max-width:386px){
+    .horizontal_list li{
+        margin : 0.5em 0.5em;
+    }
+}
+
 @media screen and (max-width:420px){
     #menu li .display{
         font-size: 1.1em;
