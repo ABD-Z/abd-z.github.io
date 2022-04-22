@@ -125,6 +125,12 @@ input, button, textarea, select {
   100% {color: rgba(0,0,0,255);opacity: 1;}
 }
 
+@keyframes fadeOut {
+  0% {color: rgba(0,0,0,255);opacity: 1;}
+  100% {color: rgba(0,0,0,0); opacity: 0;}
+  
+}
+
 @keyframes moveDown {
   0% {transform: translateY(-200vh);}
   100% {transform: translateY(0);}
@@ -156,13 +162,10 @@ input, button, textarea, select {
   object-position: 50% 50%;
   left: calc(50% - 50px/2);
   margin:0 auto;
-
 }
-
 
 #logo{
   /*border: 8px solid black;*/
-  /*animation:  animation-name animation-duration animation-timing-function animation-delay animation-iteration-count*/
   animation: moveDown 2.5s cubic-bezier(.49,.24,0,1.1) 0s 1;
   -webkit-box-reflect:  below 20px linear-gradient(to bottom, 
       hsla(0,0%,0%,0%),
@@ -188,9 +191,6 @@ input, button, textarea, select {
   transform: translate3d(0,0,0);
 }
 
-
-
-
 #logo.display{
   width: var(--logo_menu_width);
   transform: rotateZ(360deg);
@@ -206,6 +206,10 @@ input, button, textarea, select {
   transform: translate3d(200%,0,0);
   font-size: 0vmax;
   
+}
+
+#caption.display #cursor_helper{
+  animation: fadeOut 0.5s cubic-bezier(.49,.24,0,1.1) 0s 1 forwards;
 }
 
 #menu {
