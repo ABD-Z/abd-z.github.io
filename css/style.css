@@ -20,11 +20,12 @@
 
 @font-face {
   font-family: "tschihold";
-  src: url("fonts/tschichold/Tschichold\ Alt.ttf");
+  src: url("fonts/tschichold/Tschichold\ Bold.ttf");
 }
 
 :root {
   --main-font:'tschihold';
+  --secondary-font: 'aeromatics';
 
   --bg_color: #f0f0f0;
   --bg_grad_deg: 230deg;
@@ -89,6 +90,11 @@ body {
   font-weight: 500;
   /*background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(223,223,223,1) 100%);*/
   background: linear-gradient(var(--bg_grad_deg), var(--bg_grad_col1) 0%, var(--bg_grad_col2) 100%);
+}
+
+p, ul{
+  font-family: var(--secondary-font), sans-serif;
+  font-size: 1.1em;
 }
 /*
   6. Improve media defaults
@@ -222,6 +228,7 @@ input, button, textarea, select {
   transform:translate3d(500%,0,0);
   transition: 2s;
   transition-delay: 1.5s;
+  font-family: var(--main-font), sans-serif;
 }
 
 #menu.display{
@@ -281,7 +288,7 @@ hr.horizontal{
   transition : 3s;
   padding-top: 10px;
   float: left;
-  width:13em;
+  width:264px;
   
 }
 
@@ -348,6 +355,7 @@ footer{
   list-style: none;
   padding-left: 0;
   margin: 0 auto;
+  font-family: var(--main-font), sans-serif;
   
 }
 
