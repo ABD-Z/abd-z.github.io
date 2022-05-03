@@ -50,6 +50,7 @@
         width:100%;
         margin-right: 0;
         text-align: center;
+        font-size:0.9em;
     }
 
     #menu li {
@@ -61,6 +62,11 @@
     }
 }
 
+@media screen and (max-width:932px){
+    .horizontal_list li{
+        margin:1em 3%;
+      }
+}
 
 @media screen and (min-width:800px) and (max-width:1100px){
 
