@@ -210,7 +210,7 @@ input, button, textarea, select {
 
 #caption.display{
   transform: translate3d(200%,0,0);
-  font-size: 0vmax;
+  height: 0px;
   
 }
 
