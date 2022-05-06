@@ -338,6 +338,28 @@ hr.horizontal{
   justify-content: center;
 }
 
+.vignette img {
+  border-radius: 50%;
+    display: block;
+    
+}
+
+.vignette {
+  display: inline-block;
+  position: relative;
+}
+
+.vignette:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at center, rgba(230,230,230,0) 50%,rgba(230,230,230,1) 70%);
+  border-radius: 49%;
+  position: absolute;
+  top: 0; left: 0;
+}
+
 .content.display{
   display: block;
   transition: 3s;
