@@ -1,0 +1,91 @@
+d:assets:0:application/unknown
+t:arrows.atlas:816:application/unknown
+i:arrows.png:754:image/png
+d:audio:0:application/unknown
+d:audio/music:0:application/unknown
+a:audio/music/19_Bein' Friends (Field 2).ogg:561988:application/unknown
+d:audio/sound:0:application/unknown
+a:audio/sound/coinsound.ogg:4580:application/unknown
+a:audio/sound/door.ogg:6294:application/unknown
+a:audio/sound/door.wav:31182:audio/x-wav
+a:audio/sound/gameover.ogg:17864:application/unknown
+a:audio/sound/jump.ogg:8421:application/unknown
+a:audio/sound/jump.wav:56572:audio/x-wav
+a:audio/sound/stepL.wav:6116:audio/x-wav
+a:audio/sound/stepR.wav:5918:audio/x-wav
+a:audio/sound/xylograve.ogg:5195:application/unknown
+d:fonts:0:application/unknown
+i:fonts/boxdialogue.png:469:image/png
+t:fonts/itemUI.fnt:21868:application/unknown
+i:fonts/itemUI.png:4983:image/png
+t:fonts/roomUI.fnt:20321:application/unknown
+i:fonts/roomUI.png:12684:image/png
+t:fonts/roomUI64.fnt:20323:application/unknown
+i:fonts/roomUI64.png:10290:image/png
+t:fonts/textUI.fnt:20314:application/unknown
+i:fonts/textUI.png:4563:image/png
+d:graphics:0:application/unknown
+d:graphics/cara:0:application/unknown
+t:graphics/cara/cara.atlas:1817:application/unknown
+i:graphics/cara/cara.png:2418:image/png
+d:graphics/items:0:application/unknown
+i:graphics/items/box.png:299:image/png
+d:graphics/items/diplomes:0:application/unknown
+i:graphics/items/diplomes/bac.png:267193:image/png
+i:graphics/items/diplomes/bacmin.png:6196:image/png
+i:graphics/items/diplomes/brevet.png:275968:image/png
+i:graphics/items/diplomes/brevetmin.png:6219:image/png
+i:graphics/items/diplomes/dut.png:286264:image/png
+i:graphics/items/diplomes/dutmin.png:6364:image/png
+d:graphics/items/dojo:0:application/unknown
+i:graphics/items/dojo/sandbag.png:1365:image/png
+d:graphics/items/gd:0:application/unknown
+i:graphics/items/gd/bricks.png:18966:image/png
+i:graphics/items/gd/mem.png:13882:image/png
+i:graphics/items/gd/pong.png:14930:image/png
+i:graphics/items/gd/si2.png:20965:image/png
+i:graphics/items/gd board.png:2402:image/png
+i:graphics/items/language board.png:10651:image/png
+d:graphics/items/pixart:0:application/unknown
+i:graphics/items/pixart/moifond max.png:2187:image/png
+i:graphics/items/pixart/moifond turq.png:1101:image/png
+i:graphics/items/pixart/tiles max.png:23550:image/png
+i:graphics/items/pixart/tiles min.png:8906:image/png
+i:graphics/items/pixart/training room min.png:7634:image/png
+i:graphics/items/pixart/training room.png:21606:image/png
+i:graphics/items/prog board.png:12629:image/png
+i:graphics/items/recette.png:16614:image/png
+i:info.png:503:image/png
+i:infogarden.png:636:image/png
+d:maps:0:application/unknown
+b:maps/Bedroom.tmx:7927:application/unknown
+b:maps/Cuisine.tmx:6794:application/unknown
+b:maps/Entrance.tmx:5539:application/unknown
+b:maps/Fighting Gym.tmx:9693:application/unknown
+b:maps/Final Room.tmx:15599:application/unknown
+b:maps/GameDesignRoom.tmx:11741:application/unknown
+b:maps/Garden.tmx:10812:application/unknown
+b:maps/Hall1.tmx:6509:application/unknown
+b:maps/Hall2.tmx:4803:application/unknown
+b:maps/Hall3.tmx:9960:application/unknown
+b:maps/Hall4.tmx:3845:application/unknown
+b:maps/Hall5.tmx:5041:application/unknown
+b:maps/Hall6.tmx:4223:application/unknown
+b:maps/Hall7.tmx:9856:application/unknown
+b:maps/Language room.tmx:6430:application/unknown
+b:maps/PixartRoom.tmx:11172:application/unknown
+b:maps/ProgRoom.tmx:6278:application/unknown
+b:maps/Salon.tmx:9143:application/unknown
+i:maps/tiles.png:25411:image/png
+d:shaders:0:application/unknown
+t:shaders/test.fs.glsl:148:application/unknown
+t:shaders/test3.vs.glsl:1955:application/unknown
+t:shaders/test5.vs.glsl:2176:application/unknown
+t:com/badlogic/gdx/graphics/g3d/particles/particles.fragment.glsl:770:application/unknown
+t:com/badlogic/gdx/graphics/g3d/particles/particles.vertex.glsl:2886:application/unknown
+t:com/badlogic/gdx/graphics/g3d/shaders/default.fragment.glsl:5163:application/unknown
+t:com/badlogic/gdx/graphics/g3d/shaders/default.vertex.glsl:8824:application/unknown
+t:com/badlogic/gdx/graphics/g3d/shaders/depth.fragment.glsl:870:application/unknown
+t:com/badlogic/gdx/graphics/g3d/shaders/depth.vertex.glsl:2923:application/unknown
+t:com/badlogic/gdx/utils/arial-15.fnt:21743:application/unknown
+i:com/badlogic/gdx/utils/arial-15.png:21814:image/png
