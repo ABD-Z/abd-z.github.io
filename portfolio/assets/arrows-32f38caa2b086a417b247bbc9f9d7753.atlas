@@ -1,0 +1,62 @@
+
+arrows.png
+size: 64,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+arrow0
+  rotate: false
+  xy: 0, 48
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+arrow1
+  rotate: false
+  xy: 0, 32
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+arrow2
+  rotate: false
+  xy: 32, 48
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+arrow3
+  rotate: false
+  xy: 0, 16
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+arrow4
+  rotate: false
+  xy: 32, 32
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+arrow5
+  rotate: false
+  xy: 0, 0
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+arrow6
+  rotate: false
+  xy: 32, 16
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+arrow7
+  rotate: false
+  xy: 32, 0
+  size: 32, 16
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
