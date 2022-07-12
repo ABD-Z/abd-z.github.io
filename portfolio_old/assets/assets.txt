@@ -1,94 +1,91 @@
-d:assets:assets:0:application/unknown:1
-i:arrows.png:arrows-f1a2a1b78f7124d3ea0ccc406bdcc2d5.png:754:image/png:1
-i:ico32.png:ico32-5649088219bbf77280b6a577ef2dd755.png:1613:image/png:1
-d:shaders:shaders:0:application/unknown:1
-t:shaders/test.fs.glsl:shaders/test.fs-cf05d846f8eedf8776cd1e8eabd04fce.glsl:148:application/unknown:1
-t:shaders/test3.vs.glsl:shaders/test3.vs-b596398e16888ed078348f95ae9801c2.glsl:1492:application/unknown:1
-t:shaders/test5.vs.glsl:shaders/test5.vs-53820a7377d6d3a27b2ab97c189bc277.glsl:2154:application/unknown:1
-t:shaders/test3.vs - Copie.glsl:shaders/test3.vs - Copie-e4b39f833342cc00916aaac164f21fcc.glsl:1926:application/unknown:1
-i:info.png:info-c0a004fd8a18861bcc68227b8bf4d120.png:503:image/png:1
-d:maps:maps:0:application/unknown:1
-b:maps/Bedroom.tmx:maps/Bedroom-6f049acb696be93a4f051514e0f2f617.tmx:7927:application/unknown:1
-b:maps/Cuisine.tmx:maps/Cuisine-a9273f53de08469e7d349b126d0c747a.tmx:6794:application/unknown:1
-b:maps/Entrance.tmx:maps/Entrance-bfc9f088b2d3f36a0376f1e35714eda7.tmx:5539:application/unknown:1
-b:maps/Fighting Gym.tmx:maps/Fighting Gym-74d706626ae18e4aef4a43a1a84c729c.tmx:9693:application/unknown:1
-b:maps/Final Room.tmx:maps/Final Room-55b79eec10f532cdfc9bcaa7646e9021.tmx:15599:application/unknown:1
-b:maps/GameDesignRoom.tmx:maps/GameDesignRoom-8bb28da089a9b243255a6a84adc1fe8d.tmx:11741:application/unknown:1
-b:maps/Garden.tmx:maps/Garden-8b0e5efa06d085e6a1e87e48266774c7.tmx:10812:application/unknown:1
-b:maps/Hall1.tmx:maps/Hall1-c7d6e0f15c0ab01b22ea66c06ac842c2.tmx:6509:application/unknown:1
-b:maps/Hall2.tmx:maps/Hall2-d1c01647ad6f9950c4ae8f079149ae44.tmx:4803:application/unknown:1
-b:maps/Hall3.tmx:maps/Hall3-f1d7612eb67741375ef3ef93c651520a.tmx:9960:application/unknown:1
-b:maps/Hall4.tmx:maps/Hall4-b94f5320f03f24f5cba25622653e7ec0.tmx:3845:application/unknown:1
-b:maps/Hall5.tmx:maps/Hall5-f8f64a5477c68acf121667c16967d522.tmx:5041:application/unknown:1
-b:maps/Hall6.tmx:maps/Hall6-d74fbd036e8c6e118f8ef9841ab027ba.tmx:4223:application/unknown:1
-b:maps/Hall7.tmx:maps/Hall7-a106569277e572c4e0df1f401848f700.tmx:9856:application/unknown:1
-b:maps/Language room.tmx:maps/Language room-e6cc71cafa07fc17fe463e7f836fbe05.tmx:6430:application/unknown:1
-b:maps/PixartRoom.tmx:maps/PixartRoom-2d4e7ddea656963f85013a58caaac1ba.tmx:11172:application/unknown:1
-b:maps/ProgRoom.tmx:maps/ProgRoom-0e7f90ad14e717f642a90a4a6de694dc.tmx:6278:application/unknown:1
-b:maps/Salon.tmx:maps/Salon-bc407803f365bcb7f8a591916960e1af.tmx:9143:application/unknown:1
-i:maps/tiles.png:maps/tiles-a037c254b1d4e7e0406924e73e236657.png:25411:image/png:1
-t:arrows.atlas:arrows-32f38caa2b086a417b247bbc9f9d7753.atlas:816:application/unknown:1
-i:infogarden.png:infogarden-73f5b8e1a411ce228a2cce25193593cc.png:636:image/png:1
-d:graphics:graphics:0:application/unknown:1
-d:graphics/cara:graphics/cara:0:application/unknown:1
-t:graphics/cara/cara.atlas:graphics/cara/cara-e9ec45a1dae4488581cba13dbd5fc86e.atlas:1817:application/unknown:1
-i:graphics/cara/cara.png:graphics/cara/cara-d95958ade464866945fc8ea3efd3dd15.png:2418:image/png:1
-d:graphics/items:graphics/items:0:application/unknown:1
-i:graphics/items/box.png:graphics/items/box-067716e277d3b80e693b0525132882de.png:299:image/png:1
-i:graphics/items/gd board.png:graphics/items/gd board-0a268ca6c84e70a31df38e87633bea61.png:2402:image/png:1
-i:graphics/items/language board.png:graphics/items/language board-04304d57dd6a6e78c2fe14f39e79d019.png:10651:image/png:1
-i:graphics/items/prog board.png:graphics/items/prog board-d00c658100c398eef96e1f9f69a086ce.png:12629:image/png:1
-i:graphics/items/recette.png:graphics/items/recette-a59f5d7a901ebdf0ed839c71503e08f8.png:16614:image/png:1
-d:graphics/items/diplomes:graphics/items/diplomes:0:application/unknown:1
-i:graphics/items/diplomes/bac.png:graphics/items/diplomes/bac-fb1b6e60b0f3cfd756305a2f5c55041e.png:267193:image/png:1
-i:graphics/items/diplomes/bacmin.png:graphics/items/diplomes/bacmin-c12a8038a1b7aa53c2ad1ae5d399f4ca.png:6196:image/png:1
-i:graphics/items/diplomes/brevet.png:graphics/items/diplomes/brevet-eaa1c683ee6fa582ee963ca66cc6d6f1.png:275968:image/png:1
-i:graphics/items/diplomes/brevetmin.png:graphics/items/diplomes/brevetmin-db0862fc603b2a8da9d21aea9d527417.png:6219:image/png:1
-i:graphics/items/diplomes/dut.png:graphics/items/diplomes/dut-46129246886d2cff63162a0804c21a14.png:286264:image/png:1
-i:graphics/items/diplomes/dutmin.png:graphics/items/diplomes/dutmin-28b593c21b09c6aeb2e4f2ba66e5dbc8.png:6364:image/png:1
-d:graphics/items/dojo:graphics/items/dojo:0:application/unknown:1
-i:graphics/items/dojo/sandbag.png:graphics/items/dojo/sandbag-04ac89b71163714eecc0e82c4da6bc54.png:1365:image/png:1
-d:graphics/items/gd:graphics/items/gd:0:application/unknown:1
-i:graphics/items/gd/bricks.png:graphics/items/gd/bricks-cb65e8e104f1e4254f59a346f10fff4a.png:18966:image/png:1
-i:graphics/items/gd/mem.png:graphics/items/gd/mem-347d31092a835c2804eaaab4a4fe772b.png:13882:image/png:1
-i:graphics/items/gd/pong.png:graphics/items/gd/pong-1fd480352899d2a28f0f5b1628da45c2.png:14930:image/png:1
-i:graphics/items/gd/si2.png:graphics/items/gd/si2-242f269f41afd687f2ede0e569b82694.png:20965:image/png:1
-d:graphics/items/pixart:graphics/items/pixart:0:application/unknown:1
-i:graphics/items/pixart/moifond max.png:graphics/items/pixart/moifond max-0d564d1e3ab23d2e7b91d1ea015b414f.png:2187:image/png:1
-i:graphics/items/pixart/moifond turq.png:graphics/items/pixart/moifond turq-7c18972db21f27e50e1173622a6a8751.png:1101:image/png:1
-i:graphics/items/pixart/tiles max.png:graphics/items/pixart/tiles max-8f932a8d126cdc12928fa94e98b04510.png:23550:image/png:1
-i:graphics/items/pixart/tiles min.png:graphics/items/pixart/tiles min-384d943411dc190aeba37d0b6610f8f9.png:8906:image/png:1
-i:graphics/items/pixart/training room min.png:graphics/items/pixart/training room min-9364ef67f66822a790ec1c8cb2bd5139.png:7634:image/png:1
-i:graphics/items/pixart/training room.png:graphics/items/pixart/training room-61acf1a4c0e92b412ed1f240f93516f5.png:21606:image/png:1
-i:ico64.png:ico64-143787a8c56cb61262e441ed86134543.png:590:image/png:1
-d:fonts:fonts:0:application/unknown:1
-i:fonts/boxdialogue.png:fonts/boxdialogue-8878a71d7e92e3970b51c99eada56f9f.png:469:image/png:1
-t:fonts/itemUI.fnt:fonts/itemUI-f4dad25bd0f51d8ceda23351e71951a5.fnt:21868:application/unknown:1
-i:fonts/itemUI.png:fonts/itemUI-65122bf8ad1a09043c2ddf8064d570e0.png:4983:image/png:1
-t:fonts/roomUI.fnt:fonts/roomUI-de9abb7a35636b127470d63825a1ddb5.fnt:20321:application/unknown:1
-i:fonts/roomUI.png:fonts/roomUI-98a88f3c5fcb9d91f5b0c38ecf99722b.png:12684:image/png:1
-t:fonts/roomUI64.fnt:fonts/roomUI64-ac4bb2caa433910dc31e37281a4283fa.fnt:20323:application/unknown:1
-i:fonts/roomUI64.png:fonts/roomUI64-6d57fa154925f372e0d1e9d9d1531433.png:10290:image/png:1
-t:fonts/textUI.fnt:fonts/textUI-166b0ae018713b54b4588c1d0311a316.fnt:20314:application/unknown:1
-i:fonts/textUI.png:fonts/textUI-1f263d75d583006c9a9f1951ac9211a8.png:4563:image/png:1
-d:audio:audio:0:application/unknown:1
-d:audio/music:audio/music:0:application/unknown:1
-a:audio/music/19_Bein' Friends (Field 2).ogg:audio/music/19_Bein' Friends (Field 2)-8bd462e9cd2be03e74bba77a4886ef5f.ogg:561988:application/unknown:1
-d:audio/sound:audio/sound:0:application/unknown:1
-a:audio/sound/coinsound.ogg:audio/sound/coinsound-f449af3aa9d3bdd8c76e86f996aa37f1.ogg:4580:application/unknown:1
-a:audio/sound/door.ogg:audio/sound/door-0c58b4201d7df55a765eda79d3216d37.ogg:6294:application/unknown:1
-a:audio/sound/door.wav:audio/sound/door-4a5b3c2c983894c0fa4253977e982657.wav:31182:audio/x-wav:1
-a:audio/sound/gameover.ogg:audio/sound/gameover-9f8fc8de7355fa0b8f87f3f15f878e9c.ogg:17864:application/unknown:1
-a:audio/sound/jump.ogg:audio/sound/jump-41fb3d1a0f7c405378d3e48123e6c574.ogg:8421:application/unknown:1
-a:audio/sound/jump.wav:audio/sound/jump-456ebd68f129f28dbd0e9fe5339e11b2.wav:56572:audio/x-wav:1
-a:audio/sound/stepL.wav:audio/sound/stepL-2bc1016bec29580dab19ebbcd79a0923.wav:6116:audio/x-wav:1
-a:audio/sound/stepR.wav:audio/sound/stepR-b9cef7516bb901f046d9c027533ff432.wav:5918:audio/x-wav:1
-a:audio/sound/xylograve.ogg:audio/sound/xylograve-074a0b1730735d907094f30004fedcc2.ogg:5195:application/unknown:1
-t:com/badlogic/gdx/graphics/g3d/particles/particles.fragment.glsl:particles.fragment-b90524761fdf09b0a836056d590c30b8.glsl:820:application/unknown:1
-t:com/badlogic/gdx/graphics/g3d/particles/particles.vertex.glsl:particles.vertex-f25b8b2fae10b9bfa09bfdd484923148.glsl:2886:application/unknown:1
-t:com/badlogic/gdx/graphics/g3d/shaders/default.fragment.glsl:default.fragment-e1c018bd48044c8b67c7bbc53145e540.glsl:5874:application/unknown:1
-t:com/badlogic/gdx/graphics/g3d/shaders/default.vertex.glsl:default.vertex-28b7e77ea3f282ebd5b066ba256692c3.glsl:9096:application/unknown:1
-t:com/badlogic/gdx/graphics/g3d/shaders/depth.fragment.glsl:depth.fragment-8341d5ce47fc398da575c9e294b6821b.glsl:869:application/unknown:1
-t:com/badlogic/gdx/graphics/g3d/shaders/depth.vertex.glsl:depth.vertex-98a450f1f747c05eedb7122779187316.glsl:2931:application/unknown:1
-t:com/badlogic/gdx/utils/lsans-15.fnt:lsans-15-5143ae9583bc43b1084f98062e054ae8.fnt:17711:application/unknown:1
-i:com/badlogic/gdx/utils/lsans-15.png:lsans-15-afe63790f9c73ea9a111fd9843835d21.png:14652:image/png:1
+d:assets:0:application/unknown
+t:arrows.atlas:816:application/unknown
+i:arrows.png:754:image/png
+d:audio:0:application/unknown
+d:audio/music:0:application/unknown
+a:audio/music/19_Bein' Friends (Field 2).ogg:561988:application/unknown
+d:audio/sound:0:application/unknown
+a:audio/sound/coinsound.ogg:4580:application/unknown
+a:audio/sound/door.ogg:6294:application/unknown
+a:audio/sound/door.wav:31182:audio/x-wav
+a:audio/sound/gameover.ogg:17864:application/unknown
+a:audio/sound/jump.ogg:8421:application/unknown
+a:audio/sound/jump.wav:56572:audio/x-wav
+a:audio/sound/stepL.wav:6116:audio/x-wav
+a:audio/sound/stepR.wav:5918:audio/x-wav
+a:audio/sound/xylograve.ogg:5195:application/unknown
+d:fonts:0:application/unknown
+i:fonts/boxdialogue.png:469:image/png
+t:fonts/itemUI.fnt:21868:application/unknown
+i:fonts/itemUI.png:4983:image/png
+t:fonts/roomUI.fnt:20321:application/unknown
+i:fonts/roomUI.png:12684:image/png
+t:fonts/roomUI64.fnt:20323:application/unknown
+i:fonts/roomUI64.png:10290:image/png
+t:fonts/textUI.fnt:20314:application/unknown
+i:fonts/textUI.png:4563:image/png
+d:graphics:0:application/unknown
+d:graphics/cara:0:application/unknown
+t:graphics/cara/cara.atlas:1817:application/unknown
+i:graphics/cara/cara.png:2418:image/png
+d:graphics/items:0:application/unknown
+i:graphics/items/box.png:299:image/png
+d:graphics/items/diplomes:0:application/unknown
+i:graphics/items/diplomes/bac.png:267193:image/png
+i:graphics/items/diplomes/bacmin.png:6196:image/png
+i:graphics/items/diplomes/brevet.png:275968:image/png
+i:graphics/items/diplomes/brevetmin.png:6219:image/png
+i:graphics/items/diplomes/dut.png:286264:image/png
+i:graphics/items/diplomes/dutmin.png:6364:image/png
+d:graphics/items/dojo:0:application/unknown
+i:graphics/items/dojo/sandbag.png:1365:image/png
+d:graphics/items/gd:0:application/unknown
+i:graphics/items/gd/bricks.png:18966:image/png
+i:graphics/items/gd/mem.png:13882:image/png
+i:graphics/items/gd/pong.png:14930:image/png
+i:graphics/items/gd/si2.png:20965:image/png
+i:graphics/items/gd board.png:2402:image/png
+i:graphics/items/language board.png:10651:image/png
+d:graphics/items/pixart:0:application/unknown
+i:graphics/items/pixart/moifond max.png:2187:image/png
+i:graphics/items/pixart/moifond turq.png:1101:image/png
+i:graphics/items/pixart/tiles max.png:23550:image/png
+i:graphics/items/pixart/tiles min.png:8906:image/png
+i:graphics/items/pixart/training room min.png:7634:image/png
+i:graphics/items/pixart/training room.png:21606:image/png
+i:graphics/items/prog board.png:12629:image/png
+i:graphics/items/recette.png:16614:image/png
+i:info.png:503:image/png
+i:infogarden.png:636:image/png
+d:maps:0:application/unknown
+b:maps/Bedroom.tmx:7927:application/unknown
+b:maps/Cuisine.tmx:6794:application/unknown
+b:maps/Entrance.tmx:5539:application/unknown
+b:maps/Fighting Gym.tmx:9693:application/unknown
+b:maps/Final Room.tmx:15599:application/unknown
+b:maps/GameDesignRoom.tmx:11741:application/unknown
+b:maps/Garden.tmx:10812:application/unknown
+b:maps/Hall1.tmx:6509:application/unknown
+b:maps/Hall2.tmx:4803:application/unknown
+b:maps/Hall3.tmx:9960:application/unknown
+b:maps/Hall4.tmx:3845:application/unknown
+b:maps/Hall5.tmx:5041:application/unknown
+b:maps/Hall6.tmx:4223:application/unknown
+b:maps/Hall7.tmx:9856:application/unknown
+b:maps/Language room.tmx:6430:application/unknown
+b:maps/PixartRoom.tmx:11172:application/unknown
+b:maps/ProgRoom.tmx:6278:application/unknown
+b:maps/Salon.tmx:9143:application/unknown
+i:maps/tiles.png:25411:image/png
+d:shaders:0:application/unknown
+t:shaders/test.fs.glsl:148:application/unknown
+t:shaders/test3.vs.glsl:1955:application/unknown
+t:shaders/test5.vs.glsl:2176:application/unknown
+t:com/badlogic/gdx/graphics/g3d/particles/particles.fragment.glsl:770:application/unknown
+t:com/badlogic/gdx/graphics/g3d/particles/particles.vertex.glsl:2886:application/unknown
+t:com/badlogic/gdx/graphics/g3d/shaders/default.fragment.glsl:5163:application/unknown
+t:com/badlogic/gdx/graphics/g3d/shaders/default.vertex.glsl:8824:application/unknown
+t:com/badlogic/gdx/graphics/g3d/shaders/depth.fragment.glsl:870:application/unknown
+t:com/badlogic/gdx/graphics/g3d/shaders/depth.vertex.glsl:2923:application/unknown
+t:com/badlogic/gdx/utils/arial-15.fnt:21743:application/unknown
+i:com/badlogic/gdx/utils/arial-15.png:21814:image/png
