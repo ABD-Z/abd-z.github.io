@@ -112,7 +112,7 @@ input, button, textarea, select {
 /*
   8. Avoid text overflows
 */
-.banner_image, .centered_image, p, h1, h2, h3, h4, h5, h6, ul, ol {
+.banner_image, .centered_image, p, h1, h2, h3, h4, h5, h6, ul, ol, hr {
   overflow-wrap: break-word;
   opacity: 0;
   color: rgba(0,0,0,0);
