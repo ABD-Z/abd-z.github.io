@@ -429,14 +429,15 @@ footer{
   animation: opening_rect .5s cubic-bezier(.49,.24,0,1.1) 0s 1;
 }
 
-section p{
+section .section_content{
   display: none;
   /*transition: 200ms !important;*/
   /*animation: fadeIn 0.5s cubic-bezier(.49,.24,0,1.1) 0s 1 forwards !important;*/
 }
 
-section.display p{
+section.display .section_content{
   display: block;
+  padding: 10px;
 }
 
 .triangle_section{
