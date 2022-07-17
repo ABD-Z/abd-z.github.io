@@ -427,6 +427,27 @@ footer{
   animation: opening_rect .5s cubic-bezier(.49,.24,0,1.1) 0s 1;
 }
 
+section p{
+  display: none;
+  /*transition: 200ms !important;*/
+  /*animation: fadeIn 0.5s cubic-bezier(.49,.24,0,1.1) 0s 1 forwards !important;*/
+}
+
+section.display p{
+  display: block;
+}
+
+.triangle_section{
+  float:left;
+  margin-top:10px; 
+  margin-right: 10px;
+  transform: scale3d(0.666, 0.666, 0.666);
+}
+
+section.display .triangle_section{
+  transform: rotateZ(90deg) scale3d(0.666, 0.666, 0.666);
+}
+
 
 @media (hover: hover){
   #logo:hover{
@@ -462,5 +483,9 @@ footer{
             drop-shadow(5px 0 8px var(--logo_hover_glowcol)) 
             drop-shadow(0 5px 8px var(--logo_hover_glowcol)) 
             drop-shadow(0 -5px 8px var(--logo_hover_glowcol));
+  }
+
+  section h2:hover{
+    cursor: pointer;
   }
 }

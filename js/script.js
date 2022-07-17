@@ -64,3 +64,7 @@ function splash_to_menu() {
 	$("#name_title").toggleClass("display");
 	$(current_menu).toggleClass("display");
 }
+
+function display_section(event){
+	$(event.parentElement).toggleClass("display");
+}
