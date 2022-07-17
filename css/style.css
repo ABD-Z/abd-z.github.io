@@ -45,7 +45,9 @@
   --global_container_margin_x:10%;
   --global_container_margin_y:4em;
   --content_container_margin:10%;
-  --title_menu_margin:10%
+  --title_menu_margin:10%;
+
+  --footer_height:32px;
 
 }
 
@@ -319,7 +321,7 @@ hr.horizontal{
 #global_container{
   font-size: 1.2em;
   margin: 4em var(--global_container_margin_x);
-  min-height: calc(100vh - var(--global_container_margin_y)*2);
+  min-height: calc(100vh - var(--global_container_margin_y)*2 - var(--footer_height));
 }
 
 .content{
