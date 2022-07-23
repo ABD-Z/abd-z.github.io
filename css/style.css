@@ -340,6 +340,10 @@ hr.horizontal{
   justify-content: center;
 }
 
+.centered_image img{
+  margin: 0 auto;
+}
+
 .vignette img {
   border-radius: 50%;
     display: block;
