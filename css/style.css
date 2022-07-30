@@ -384,7 +384,6 @@ footer{
   padding-left: 0;
   margin: 0 auto;
   font-family: var(--main-font), sans-serif;
-  
 }
 
 .horizontal_list li{
@@ -453,6 +452,24 @@ section.display .section_content{
 
 section.display .triangle_section{
   transform: rotateZ(90deg) scale3d(0.666, 0.666, 0.666);
+}
+
+#arcaduo_games{
+  text-align: center;
+  list-style: none;
+  padding-left: 0;
+  margin: 0 auto;
+  font-family: var(--main-font), sans-serif;
+}
+
+#arcaduo_games li{
+  display: inline-block;
+  margin:1em 3%;
+  width:180px;
+}
+
+#arcaduo_games li img{
+  margin: 0 auto;
 }
 
 
