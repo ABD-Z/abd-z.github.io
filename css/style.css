@@ -472,6 +472,16 @@ section.display .triangle_section{
   margin: 0 auto;
 }
 
+.game_jam_block{
+  border-top: solid black 1px;
+  padding:10px 10px;
+  margin:5px 10px;
+}
+
+.game_jam_block h3{
+  border-bottom: solid black 0.5px;
+}
+
 
 @media (hover: hover){
   #logo:hover{
