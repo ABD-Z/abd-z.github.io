@@ -454,7 +454,7 @@ section.display .triangle_section{
   transform: rotateZ(90deg) scale3d(0.666, 0.666, 0.666);
 }
 
-#arcaduo_games{
+.multi_items_display{
   text-align: center;
   list-style: none;
   padding-left: 0;
@@ -462,13 +462,13 @@ section.display .triangle_section{
   font-family: var(--main-font), sans-serif;
 }
 
-#arcaduo_games li{
+.multi_items_display li{
   display: inline-block;
   margin:1em 3%;
   width:180px;
 }
 
-#arcaduo_games li img{
+.multi_items_display li img{
   margin: 0 auto;
 }
 
@@ -478,8 +478,9 @@ section.display .triangle_section{
   margin:5px 10px;
 }
 
-.game_jam_block h3{
+.game_jam_block .game_jam_block_title{
   border-bottom: solid black 0.5px;
+  font-size: 1.4em;
 }
 
 
